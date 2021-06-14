@@ -1,0 +1,15 @@
+com\game\entities\ResponseResult.class
+com\game\PointsMain.class
+com\game\controller\UserController.class
+com\game\interceptor\TokenInterceptor.class
+com\game\entities\User.class
+com\game\utils\HttpUtils.class
+com\game\utils\ResultUtils.class
+com\game\config\WebConfig.class
+com\game\utils\VerifyCodeUtil.class
+com\game\dao\UserMapper.class
+com\game\utils\ToolUtils.class
+com\game\service\imp\UserServiceImp.class
+com\game\service\StringRedisService.class
+com\game\service\UserService.class
+com\game\controller\ImageController.class

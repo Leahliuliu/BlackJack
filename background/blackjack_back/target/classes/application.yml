@@ -1,0 +1,29 @@
+server:
+  port: 8081
+  http2:
+    enabled: true
+  undertow:
+    io-threads: 16
+    worker-threads: 256
+    buffer-size: 1024
+    direct-buffers: true
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/points?useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT&zeroDateTimeBehavior=convertToNull&useSSL=false
+
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+
+
