@@ -5,7 +5,7 @@ BlackJack 是个人独立研发的一款人机对战的 21 点牌类游戏，实
 
 blackjack 文件夹内为前端项目
 
-blackjack-back 文件夹内为后端项目
+background 文件夹内为后端项目
 
 数据库文件points.sql
 
